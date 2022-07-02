@@ -1,0 +1,36 @@
+.header {    
+    width: 100%;
+    height: 1024px;
+    font-size: 24px;  
+    background-color: red;
+    background-image: url("img/common/header/photo.jpg");
+}
+
+.wrapper { 
+display: flex;
+width: fit-content;
+width: 100%;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+      
+}
+
+.nav__list { 
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: left;
+        z-index: 436;
+       list-style: none;
+}
+.nav__list_item {}
+
+
+
+
+
+    

@@ -1,0 +1,22 @@
+
+include ../helpers/mixins
+
+block variables
+
+doctype html
+html(lang="ru-RU")
+head 
+ meta(charset="utf-8")
+ title #(title)
+ meta(http-eqiv='X-UA-Compatible' , content="IE = edge")
+ meta(name="viewport" content="width=device-width, initiale-scale=1")
+ meta(name="keywords" content="")
+ link(rel="stylesheet" type="text/css" href="styles.css")
+ body 
+.wrapper 
+ include ../modules/header.pug
+ 
+ block script 
+ script(src = "dev/js/main.js") 
+include ../modules/footer
+
