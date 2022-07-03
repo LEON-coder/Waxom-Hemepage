@@ -1,0 +1,42 @@
+.main-block__describes{
+   height: 372px; 
+}
+
+.describes__4-block {
+    display: flex;
+    padding-top: 80px;
+}
+
+
+.describes__4-block_item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h5 {
+    font-size: 22px;
+    font-family: Raleway;
+    color: #555;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    z-index: 82;
+    margin-top: 35px;
+}
+
+
+.h2 {
+         font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(140, 140, 140);
+        line-height: 1.714;
+        text-align: center;       
+        width: 266px;
+        height: 62px;
+        z-index: 83;        
+}
