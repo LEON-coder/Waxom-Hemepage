@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1161px;
     align-items: center;
 }
 
@@ -74,30 +73,47 @@
 .main-block__projects_block-pic {
     display: flex;
     width: 1174px;
-    height: 715px;
     flex-direction: column;
 }
 
 .projects_block__picture {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 370px;
-    height: 237px;
+    height: 337px;
     position: relative;
+    margin-right: 30px;
 }
 
-.projects__back-corner {
+
+.projects_block__picture:hover .projects_block__picture_header-describer {
+    background-color: #362f2d;
+    }
+
+    .projects__back-corner {
+        display: flex;
+        position: absolute;
+        top: 227px;
+        z-index: 11;
+        left: 20px;
+    }
+
+.projects_block__picture:hover .projects__back-corner--hover {
     display: flex;
     position: absolute;
-    top: 230px;
+    top: 227px;
     z-index: 11;
     left: 20px;
+}
+
+.projects__back-corner--hover{
+    display: none;
 }
 
 .projects_block-pic__row {
     display: flex;
     margin-top: 40px;
+    height: 339px;
 }
 
 
@@ -120,7 +136,35 @@
     z-index: 163;
     height: auto;
     margin-top: 30px;
+    margin-left: 28px;
 }
+
+.projects_block__picture:hover .projects__picture {
+      filter: brightness(0.5);
+} 
+
+
+.projects_block__picture:hover .projects_block__picture--header {
+    color: #ffffff;
+}
+    
+
+.projects_block__picture:hover .projects_block__picture--describe {
+    color: #c7b299;
+}
+
+
+.projects_block__picture:hover .projects__back-corner--hover  {
+    display: flex;
+}
+
+.projects_block__picture:hover .projects_block__picture_central-block {
+    display: flex;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .projects_block__picture--describe {
     font-size: 14px;
@@ -130,5 +174,46 @@
     text-align: left;
     z-index: 164;
     margin-top: 15px;
+    margin-left: 28px;
+    margin-bottom: 20px;
+}
+
+.projects_block__picture_header-describer {
+    padding-left: 0;
+    width: 100%;
+}
+
+.link{
+    margin-right: 29px;
+}
+
+
+.projects_block__picture_central-block {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+.main-block__link {
+    font-size: 14px;
+    font-family: Raleway;
+    background-color: #998675;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.643;
+    display: flex;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: inset 0 3px 0 0 rgb(115 99 87 / 0%);
+    width: 170px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    z-index: 232;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 

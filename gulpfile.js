@@ -100,7 +100,7 @@ function watcher() {
     gulp.watch('dev/js/main.js', script);
     gulp.watch('dev/scss/**/*scss', CSScompiling);
     gulp.watch('build/*.html').on('change', browserSync.reload);
-    gulp.watch('dev/images/**/*.{jpg,png,gif,svg}"', imageCompressing);
+    gulp.watch('dev/images/**/*.{jpg,png,gif,svg}', imageCompressing);
     
 }
 
