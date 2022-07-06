@@ -42,7 +42,7 @@ function CSScompiling() {
     .pipe(browserSync.stream())
     .pipe(plumber.stop())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('../Waxom-Hemepage'));
 }
 
 
