@@ -27,7 +27,7 @@ function pugToHtml() {
     .pipe(gulpPug({
             pretty:true
         }))
-    .pipe(gulp.dest('../Waxom-Hemepage'));
+    .pipe(gulp.dest('./'));
 }
 
 
@@ -42,7 +42,7 @@ function CSScompiling() {
     .pipe(browserSync.stream())
     .pipe(plumber.stop())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('../Waxom-Hemepage'));
+    .pipe(gulp.dest('build/'));
 }
 
 
@@ -60,7 +60,7 @@ function script() {
 function liveserver() {
     browserSync.init({
         server: {
-            baseDir: "../Waxom-Hemepage"
+            baseDir: "./"
         }
     });
 }
