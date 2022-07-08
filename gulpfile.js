@@ -27,7 +27,7 @@ function pugToHtml() {
     .pipe(gulpPug({
             pretty:true
         }))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('build/'));
 }
 
 
@@ -60,7 +60,7 @@ function script() {
 function liveserver() {
     browserSync.init({
         server: {
-            baseDir: "./"
+            baseDir: "build/"
         }
     });
 }

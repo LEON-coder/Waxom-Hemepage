@@ -5,11 +5,28 @@
    @import url(../scss/partials/main-block__projects.scss);
    @import url(../scss/partials/main-block__presentation.scss);
    @import url(../scss/partials/main-block__mobile_devices.scss);
-   .scss);
- 
+   @import url(../scss/partials/main-block__statistics.scss);
+   @import url(../scss/partials/main-block__recent-posts.scss);
    
    *,.wrapper{
         margin:0;
         padding:0
+    }
+
+
+    body {
+        font-family: "Raleway", "Montserrat", sans-serif;
+      }
+
+    @font-face {
+        font-family: "Raleway";
+        font-style: normal;
+        src: local('Raleway-Medium.woff2');
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-style: light;
+        src: local('build/fonts/Montserrat/Montserrat-Light.ttf');
     }
 
