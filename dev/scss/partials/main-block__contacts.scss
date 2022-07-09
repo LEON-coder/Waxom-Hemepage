@@ -1,0 +1,225 @@
+.main-block__contacts {
+    background-color: #191919;
+    display: flex;
+    width: 100%;
+    height: 508px;
+}
+
+.main-block__contacts_4-blocks {
+    display: flex;
+    justify-content: center;
+    margin-left: 376px;
+}
+
+.main-block__contacts_block {
+    display: flex;
+    width: 261px;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.main-block__contacts_logo {
+    display: flex;
+    align-self: baseline;
+    margin-top: 94px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.contacts__block_text {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #555;
+    line-height: 1.714;
+    text-align: left;
+    width: 258px;
+    height: 155px;
+    z-index: 9;
+    margin-top: 34px;
+}
+
+ .contacts__block_text:hover {
+    color: #c7b299;
+}
+
+
+.contacts__block_link-block {
+    display: flex;
+    text-decoration: none;
+}
+
+.contacts__block_link {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: #d1d1d1;
+    line-height: 1.429;
+    text-align: left;
+    z-index: 11;
+    display: flex;
+    align-self: baseline;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.contacts__block_arrow {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.main-block__contacts__header {
+    font-size: 24px;
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    z-index: 16;
+    margin-top: 107px;
+}
+
+.month {  
+        font-size: 12px;
+        font-family: "Montserrat";
+        color: rgb(54, 54, 54);
+        line-height: 1.667;
+        text-align: left;      
+        width: 117px;
+        height: 11px;
+        z-index: 19; 
+        margin-top: 30px;       
+}
+
+.main-block__contacts__new {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(85, 85, 85);
+        line-height: 1.429;
+        text-align: left;       
+        width: 250px;
+        height: 34px;
+        z-index: 18;    
+        margin-top: 13px; 
+      }
+
+.main-block__contacts__twit{
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: #555555;
+        line-height: 1.429;
+        text-align: left;       
+        width: 264px;
+        height: 34px;
+        z-index: 37;   
+        margin-top: 29px;    
+}
+
+.time {
+    font-size: 12px;
+    font-family: Montserrat;
+    color: #363636;
+    line-height: 1.667;
+    text-align: left;
+    width: 64px;
+    height: 11px;
+    z-index: 38;
+    margin-top: 14px;
+}
+
+.time--last{
+    margin-top: 0;
+}
+
+.main-block__contacts_widget {
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    width: 270px;
+}
+
+.widget {
+    display: flex;
+    height: 98px;
+}
+
+
+.widget--block {
+    margin-left: 30px;
+}
+
+.margin--right{
+    margin-right: 10px;
+}
+
+.margin--bottom{
+    margin-bottom: 10px;
+}
+
+
+.contacts_block__block_RSS {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts_block__block_RSS:hover .month{
+color: #ffffff;
+
+}
+
+.contacts_block__block_RSS:hover .month{
+    color: #ffffff;
+    
+}
+
+
+.contacts_block__block_RSS:hover .main-block__contacts__new {
+    color: #c7b299;
+}
+
+
+.contacts_block__block_RSS {
+            display: flex;
+            flex-direction: column;
+            height: 110px;
+            border-bottom: 1px solid #252525;
+        }
+
+
+
+.contacts_block__block_RSS:last-child {
+            display: flex;
+            flex-direction: column;
+            height: 110px;
+            border-bottom: none;
+}
+
+
+.main-block__contacts_block-twit{
+    display: flex;
+}
+
+
+.main-block__contacts_block-twit {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main-block__contacts_block-twit:hover .main-block__contacts__twit{
+    color: #c7b299;
+}
+
+
+.main-block__contacts_block-twit:hover .time{
+    color: #ffffff;
+}

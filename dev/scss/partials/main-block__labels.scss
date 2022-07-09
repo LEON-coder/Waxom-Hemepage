@@ -1,0 +1,19 @@
+.main-block__labels{
+    background-image: url(../img/main-block__labels/back.jpg);
+    display: flex;
+    height: 489px;
+    width: 100%;
+}
+
+.main-block__labels__block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-block__picture {
+    display: flex;
+    margin-right: 90px;
+}
