@@ -20,13 +20,13 @@
 
 
     body {
-        font-family: "Raleway", "Montserrat", sans-serif;
+        font-family: 'Raleway, Montserrat, sans-serif';
       }
 
     @font-face {
         font-family: "Raleway";
         font-style: normal;
-        src: local('Raleway-Medium.woff2');
+        src: local('../build/fonts/raleway/Raleway-SemiBold.woff');
     }
 
     @font-face {

@@ -13,7 +13,7 @@
     padding-top:55px}
             
         
-        .link__nav_logo {
+.link__nav_logo {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,27 +21,34 @@
         }
             
             
-            .nav__list{
-                font-size:14px;
-                font-family:Montserrat;
-                color:#fff;
-                line-height:1.2;
-                text-align:left;
-                z-index:436;
-                list-style:none;
-                display:flex;
-                align-items:center}
-                
-                
-     .nav__list_item{
+.nav__list{
     font-size:14px;
     font-family:Montserrat;
     color:#fff;
-    line-height:1.2;
-    text-align:left;
-    z-index:439;
-    margin-right:30px          
-            }       
+    line-height:1.2;            
+     text-align:left;           
+    z-index:436;
+    list-style:none;            
+    display:flex;         
+    align-items:center; 
+           }            
+                
+                
+.nav__list_item {
+    font-size: 14px;
+    font-family: Montserrat;
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    z-index: 439;
+    margin-right: 30px;
+    transition: all 0.7s;
+}       
+            
+            
+.nav__list_item:hover{
+    color:#7c7265;
+}
 
     .nav__list_item:nth-child(8) {
 margin-right: 60px;
@@ -63,7 +70,7 @@ margin-right: 30px;
 
     .header__header-portfolio {         
             font-size: 52px;
-            font-family: "Raleway";
+            font-family: 'Raleway';
             color: rgb(255, 255, 255);
             font-weight: bold;
             line-height: 1.2;
@@ -75,7 +82,7 @@ margin-right: 30px;
             display: flex;
             justify-content: center;
             font-size: 16px;
-            font-family: "Montserrat";
+            font-family: 'Montserrat';
             color: rgb(255, 255, 255);
             line-height: 1.5;
             text-align: center;               
@@ -89,6 +96,7 @@ margin-right: 30px;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        position: relative;
     }
     .btn {
         font-size: 14px;
@@ -129,6 +137,22 @@ margin-right: 30px;
             margin-right: 10px;
     }
 
+
+    .block-slide-arrows{
+display: flex;
+    }
+
+
+    .left_slide {
+        position: absolute;
+        left: 150px;
+    }
+
+
+    .right_slide {
+        position: absolute;
+        right: 150px;
+    }
 
 
 
