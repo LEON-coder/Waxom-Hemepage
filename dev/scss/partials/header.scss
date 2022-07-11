@@ -14,11 +14,11 @@
             
         
 .link__nav_logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 220px;
-        }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 220px;
+}
             
             
 .nav__list{
@@ -31,7 +31,7 @@
     list-style:none;            
     display:flex;         
     align-items:center; 
-           }            
+}            
                 
                 
 .nav__list_item {
@@ -152,6 +152,22 @@ display: flex;
     .right_slide {
         position: absolute;
         right: 150px;
+    }
+
+    #slides {
+        position: relative;      
+    }
+
+    .slide {
+        width: 100%;
+        /* opacity: 0; */
+        z-index: 1;
+        transition: opacity 1s;
+    }
+
+    .showing {
+        opacity: 1;
+        z-index: 2;
     }
 
 

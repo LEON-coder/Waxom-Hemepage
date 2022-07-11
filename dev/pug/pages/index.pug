@@ -13,22 +13,19 @@ head
  meta(name="keywords" content="")
  link(rel="stylesheet" type="text/css" href="styles.css")
  body 
-.wrapper 
- include ../modules/header.pug
- include ../modules/main-block__describes.pug
- include ../modules/main-block__realization.pug
- include ../modules/main-block__projects.pug
- include ../modules/main-block__presentation.pug
- include ../modules/main-block__mobile_devices.pug
- include ../modules/main-block__statistics.pug
- include ../modules/main-block__recent-posts.pug
- include ../modules/main-block__labels.pug
- include ../modules/main-block__contacts.pug
- include ../modules/footer.pug
+  .wrapper 
+    include ../modules/header.pug
+    include ../modules/main-block__describes.pug
+    include ../modules/main-block__realization.pug
+    include ../modules/main-block__projects.pug
+    include ../modules/main-block__presentation.pug
+    include ../modules/main-block__mobile_devices.pug
+    include ../modules/main-block__statistics.pug
+    include ../modules/main-block__recent-posts.pug
+    include ../modules/main-block__labels.pug
+    include ../modules/main-block__contacts.pug
+    include ../modules/footer.pug 
 
- 
- 
- block script 
- script(src = "dev/js/main.js") 
+ script(src = "../chief-slider.min.js") 
 
 

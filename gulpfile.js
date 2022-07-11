@@ -17,7 +17,7 @@ const replace = require('gulp-replace');
 const sourcemaps = require('gulp-sourcemaps');
 
 function clean() {
-return del(pattern, 'build/');
+return del(pattern, './');
 }
 
 
@@ -27,7 +27,7 @@ function pugToHtml() {
     .pipe(gulpPug({
             pretty:true
         }))
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('./'));
 }
 
 
@@ -42,25 +42,25 @@ function CSScompiling() {
     .pipe(browserSync.stream())
     .pipe(plumber.stop())
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('build/'));
+    .pipe(gulp.dest('./'));
 }
 
 
 function script() {
-    return gulp.src("dev/js/main.js")  
+    return gulp.src("dev/js/**/*.js")  
       .pipe(babel({
         presets: ['@babel/env']
     })) 
     .pipe(uglify())
     .pipe(browserSync.stream())
-    .pipe(gulp.dest('build/js/'));
+    .pipe(gulp.dest('./js'));
 }
 
 
 function liveserver() {
     browserSync.init({
         server: {
-            baseDir: "build/"
+            baseDir: "./"
         }
     });
 }
@@ -85,7 +85,7 @@ function liveserver() {
 			parserOptions: {xmlMode: true}
 		}))
 			.pipe(replace('&gt;', '>'))
-			.pipe(gulp.dest('build/img/sprites/'));
+			.pipe(gulp.dest('./img/sprites/'));
 }
 
 
@@ -93,7 +93,7 @@ function liveserver() {
 function watcher() {
     browserSync.init({
         server: {
-            baseDir: "build"
+            baseDir: "./"
         }
     });
     gulp.watch('dev/pug/**/*.pug', pugToHtml);
@@ -101,8 +101,8 @@ function watcher() {
     gulp.watch('dev/scss/**/*scss', CSScompiling);
     gulp.watch('build/*.html').on('change', browserSync.reload);
     gulp.watch('dev/images/**/*.{jpg,png,gif,svg}', imageCompressing);
-    
-}
+    gulp.watch('dev/', script);
+  }
 
 
 function imageCompressing() {
@@ -120,7 +120,7 @@ function imageCompressing() {
             ]
         })
     ]))
-    .pipe(gulp.dest('build/img'));
+    .pipe(gulp.dest('./'));
 }
 
 
