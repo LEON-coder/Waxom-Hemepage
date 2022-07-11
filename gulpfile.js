@@ -120,7 +120,7 @@ function imageCompressing() {
             ]
         })
     ]))
-    .pipe(gulp.dest('./'));
+    .pipe(gulp.dest('./img'));
 }
 
 
