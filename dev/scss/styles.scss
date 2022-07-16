@@ -10,8 +10,10 @@
    @import url(../scss/partials/main-block__labels.scss);
    @import url(../scss/partials/main-block__contacts.scss);
    @import url(../scss/partials/footer.scss);
-
-
+   @import url(../scss/partials/media/768px.scss);
+   @import url(../scss/partials/media/1024px.scss);
+   @import url(../scss/partials/media/1440px.scss);
+   @import url(../scss/partials/media/2560px.scss);
 
    *,.wrapper{
         margin:0;
@@ -20,6 +22,7 @@
 
 
     body {
+        width: 100%;
         font-family: 'Raleway, Montserrat, sans-serif';
       }
 
@@ -32,6 +35,6 @@
     @font-face {
         font-family: "Montserrat";
         font-style: light;
-        src: local('build/fonts/Montserrat/Montserrat-Light.ttf');
+        src: local('../build/fonts/Montserrat/Montserrat-Light.ttf');
     }
 

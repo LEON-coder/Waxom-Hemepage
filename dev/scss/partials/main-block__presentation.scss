@@ -1,3 +1,12 @@
+
+    @font-face {
+        font-family: 'Montserrat';
+        font-style: light;
+        src: local('build/fonts/Montserrat/Montserrat-Light.ttf');
+    }
+
+
+
 .main-block__presentation {
     justify-content: center;
     display: flex;
@@ -6,6 +15,8 @@
     flex-direction: column;
     height: 705px;
     background-image: url(../img/main-block__presentation/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .block-player{
@@ -45,22 +56,24 @@
         z-index: 246;    
       }
 
-.main-block__presentation__name{
+      .main-block__presentation__name {
         font-size: 16px;
-        font-family: "Montserrat";
-        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        color: #fff;
         line-height: 1.75;
-        text-align: center;       
+        text-align: center;
         width: 552px;
-        height: 43px;
-        z-index: 247;       
-}
+        z-index: 247;
+    }
 
-.time{   
-        font-size: 14px;
+    .time {
+        font-size: 12px;
         font-family: "Montserrat";
-        color: rgb(199, 178, 153);
-        line-height: 1.714;
-        text-align: center;       
-        z-index: 248;  
-       }
+        line-height: 1.667;
+        text-align: left;
+        width: 64px;
+        height: 11px;
+        z-index: 38;
+        margin-top: 14px;
+        color: #c7b299;
+    }

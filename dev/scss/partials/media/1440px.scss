@@ -1,0 +1,147 @@
+@media screen and (min-width:1440px) {
+
+    .main-block__describes {
+        height: 372px;
+    }
+
+    .main-block__mobile_devices {
+        display: flex;
+        width: 100%;
+        height: 695px;
+        background: #fbfaf8;
+        justify-content: center;
+    }
+
+    .mobile {
+        display: flex;
+        padding-top: 78px;
+        padding-left: 80px;
+        width: auto;
+    }
+
+    .main-block__mobile_devices {
+        display: flex;
+        width: 100%;
+        height: 695px;
+        background: #fbfaf8;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .main-block__mobile_devices_block-text {
+        display: flex;
+        margin-top: 70px;
+        flex-direction: column;
+        width: 662px;
+    }
+
+    .main-block__labels__block {     
+        justify-content: space-around;
+         }
+
+    .main-block__recent-posts__slider {
+            display: flex;
+            height: auto;
+            margin-top: 40px;
+            margin-bottom: 78px;
+        }
+
+        .main-block__realization_3-pictures {
+            display: flex;
+            width: 1231px;
+            position: relative;
+            height: 484px;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+    .main-block__projects {     
+        height: auto;
+    }
+
+    .main-block__picture img {
+        width: auto;
+    }
+
+    .main-block__statistics_5-blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 930px;
+    }
+
+
+    .main-block__contacts_4-blocks {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        flex-wrap: nowrap;
+    }
+
+    .main-block__contacts_block {
+        display: flex;
+        width: 261px;
+        flex-direction: column;
+        margin-right: 40px;
+    }
+
+    .main-block__contacts_widget {
+        display: flex;
+        margin-top: 25px;
+        width: 280px;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .margin-top {
+        margin-top: 30px;
+    }
+    .margin-top--block {
+        margin-top: 0;
+    }
+
+    .main-block__link {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    .main-block__projects_block-pic {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main-block__realization {
+        margin-top: 0;
+    }
+    .main-block__contacts_4-blocks {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .main-block__contacts {
+        background-color: #191919;
+        display: flex;
+        width: 100%;        
+        justify-content: center;
+    }
+
+    .footer__left-block {
+        margin-left: 0;
+    }
+    .footer {
+        display: flex;
+        width: 100%;
+        height: 111px;
+        background-color: #111;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 65%;
+    }
+}  

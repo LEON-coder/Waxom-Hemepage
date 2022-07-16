@@ -5,7 +5,9 @@
     height: 1024px;
     font-size: 24px;
     background-image: url(../img/common/header/photo.jpg);
-}      
+    background-repeat: no-repeat;
+    background-size: cover;
+}     
 .navigation{
     display:flex;
     width:100%;

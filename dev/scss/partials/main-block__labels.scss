@@ -1,8 +1,10 @@
-.main-block__labels{
+.main-block__labels {
     background-image: url(../img/main-block__labels/back.jpg);
     display: flex;
     height: 489px;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-block__labels__block {

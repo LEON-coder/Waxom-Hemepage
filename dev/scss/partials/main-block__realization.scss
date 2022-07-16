@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Raleway;
-    src: url();
+    font-family: 'Raleway';
+    src: url(build/fonts/raleway/ofont.ru_Raleway.ttf);
 }
 
 
@@ -46,6 +46,10 @@
     height: 484px;
     justify-content: center;
     margin-top: 40px;
+}
+
+.pic--width{
+    width: 60%;
 }
 
 .right {
