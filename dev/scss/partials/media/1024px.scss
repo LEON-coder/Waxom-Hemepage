@@ -32,6 +32,26 @@
         margin-right: 0;
     }
 
+    .main-block__post {
+        display: flex;
+        width: 100%;
+        height: 395px;
+        flex-direction: column;
+        margin-right: 0;
+        position: relative;
+        align-items: baseline;
+    }
+
+    .main-block__post_link {
+        margin-left: 20px;
+        align-self: baseline;
+    }
+
+    .main-block__post_describe {
+        width: 297px;
+        margin-left: 20px;
+    }
+
      .main-block__mobile_devices--describe-text {
         font-size: 16px;
         font-family: Montserrat;
@@ -70,13 +90,31 @@
         margin-top: 0;
     }
 
+    .main-block__projects_block-pic {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .projects_block__picture {       
+        width: auto;       
+    }
+
+    .margin-top {
+        margin-top: 350px;
+    }
+    .margin-block--top-1024 {
+        margin-top: 0;
+    }
+
     .main-block__realization_3-pictures {
         display: flex;
         width: 100%;
         position: relative;
         height: 320px;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 100px;
     }
 
     .describes__4-block {
@@ -85,32 +123,26 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-
     .projects_block-pic__row {
         display: flex;
         margin-top: 40px;
         height: 339px;
         flex-wrap: wrap;
         justify-content: center;
+        flex-direction: row;
+        margin-bottom: 330px;
     }
 
+ 
     .main-block__projects {
         display: flex;
         flex-direction: column;
         width: 100%;
-        align-items: center;
-        height: 2050px;
+        align-items: center;      
     }
 
-    .margin-top {
-        margin-top: 420px;
-    }
 
-    .margin-top--block {
-        margin-top: 40px;
-    }
-
-    .main-block__recent-posts {
+     .main-block__recent-posts {
         display: flex;
         width: 100%;
         height: auto;
@@ -120,6 +152,20 @@
     }
 
 
+    .projects__picture {
+        width: auto;
+    }
+
+    .width--label{
+        width: 15%;
+    }
+
+    .main-block__labels__block {
+        flex-direction: row;
+        margin-bottom: 30px;
+        justify-content: space-around;
+    }
+
     .main-block__recent-posts_3-blocks {
         display: flex;
         margin-top: 43px;
@@ -128,26 +174,8 @@
     }
 
 
-    .main-block__link {
-        font-size: 14px;
-        font-family: Raleway;
-        background-color: #998675;
-        text-decoration: none;
-        font-weight: 700;
-        text-transform: uppercase;
-        line-height: 1.643;
-        display: flex;
-        color: #fff;
-        text-align: center;
-        border-radius: 3px;
-        box-shadow: inset 0 3px 0 0 rgb(115 99 87 / 0%);
-        width: 170px;
-        height: 50px;
-        align-items: center;
-        justify-content: center;
-        z-index: 232;
-        margin-top: 450px;
-        margin-bottom: 0;
+    .main-block__link {     
+        margin-top: 40px;       
     }
 
 
@@ -166,7 +194,7 @@
         line-height: 1.2;
         text-align: center;
         z-index: 16;
-        margin-top: 107px;
+        margin-top: 55px;
     }
 
     .main-block__contacts_4-blocks {
@@ -187,8 +215,9 @@
 
     .footer__wrapper {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
+        margin-bottom: 0;
+        width: 90%;
     }
 
     .footer__left-block {

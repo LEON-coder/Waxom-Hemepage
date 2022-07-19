@@ -1,4 +1,18 @@
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1900px) {
+    .navigation {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        width: 1170px;
+    }
+
+    .link__nav_logo {        
+        margin-bottom: 0;
+    }
+
+    .nav__list {
+        width: auto;
+    }
 
     .main-block__describes {
         height: 372px;
@@ -35,6 +49,10 @@
         width: 662px;
     }
 
+    .main-block__realization_describe_h2 {
+        width: 757px;
+    }
+
     .main-block__labels__block {     
         justify-content: space-around;
          }
@@ -59,6 +77,11 @@
         height: auto;
     }
 
+    
+    .brown-line__common-block {      
+        flex-direction: row;
+    }
+
     .main-block__picture img {
         width: auto;
     }
@@ -71,6 +94,91 @@
     }
 
 
+    .main-block__mobile_devices_block-text {
+        display: flex;
+        margin-top: 70px;
+        flex-direction: column;
+        width: 662px;
+        margin-left: 0;
+    }
+
+    .main-block__mobile_devices_list {     
+        width: 90%;      
+        margin-left: 140px;
+    }
+
+    .main-block__statistics {
+        margin-top: 0;       
+    }
+    
+
+    .main-block__statistics_5-blocks {        
+        width: 930px;
+        flex-direction: row;
+    }
+
+    .main-block__recent-posts_describe {
+        width: 760px;
+    }
+
+    .main-block__recent-posts_3-blocks {       
+        flex-direction: row;
+    }
+
+
+    .main-block__post {      
+        width: 370px;
+        height: 395px;
+        margin-right: 30px;       
+    }
+
+     .main-block__post_describe {
+        margin-left: 29px;
+        width: 297px;
+    }
+
+    .right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .main-block__post_describe {
+        margin-left: 0;
+        width: 297px;
+    }
+
+    .main-block__post_name {
+        margin-left: 0;
+        align-self: auto;
+    }
+
+    .main-block__post_describe {
+        width: 297px;
+        margin-left: 20px;
+        align-self: baseline;
+    }
+
+    .main-block__post_name {
+        width: 297px;
+        margin-left: 20px;
+        align-self: baseline;
+    }
+
+    .main-block__picture:last-child {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .main-block__post:last-child {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .main-block__labels__block {
+        justify-content: space-around;
+        flex-direction: row;
+    }
     .main-block__contacts_4-blocks {
         display: flex;
         justify-content: center;
@@ -126,8 +234,33 @@
         justify-content: center;
     }
 
+    .width--label {
+        width: auto;
+    }
+
+    .main-block__contacts_4-blocks {      
+        flex-direction: row;
+    }
+
     .footer__left-block {
         margin-left: 0;
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .footer__right-block {
+        margin-left: 0;
+        flex-direction: row;
+    }
+
+    .footer__item {
+        width: auto;
+        margin-top: 0;
+    }
+
+    .footer__item:first-child {
+        margin-top: 0;
+        width: auto;
     }
     .footer {
         display: flex;
@@ -139,9 +272,11 @@
     }
 
     .footer__wrapper {
-        display: flex;
+        width: 86%;
+        flex-direction: row;
+        margin-bottom: 0;
         justify-content: space-between;
-        flex-wrap: wrap;
-        width: 65%;
     }
+
+
 }  
