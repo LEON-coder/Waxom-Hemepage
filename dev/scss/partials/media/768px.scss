@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width: 992px) {
 
     .right_slide {
         position: absolute;
@@ -80,6 +80,7 @@
         width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-top: 40px;
     }
 
     .projects_block-pic__row {
@@ -91,13 +92,9 @@
         height: auto;
     }
 
-    .projects_block__picture {
-        display: flex;
-        flex-direction: column;
-        width: 370px;
-        height: 337px;
-        position: relative;
+    .projects_block__picture {      
         margin-right: 0;
+        margin-top: 40px;
     }
 
 
@@ -169,12 +166,14 @@
     }
 
 
+    .main-block__labels {       
+        height: auto;      
+    }
+
     .main-block__labels__block {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
 
     .main-block__mobile_devices_block-text {
@@ -191,8 +190,7 @@
    }
 
    .main-block__statistics {
-    margin-top: 0;
-    height: auto;
+    margin-top: 0;   
 }
 
 .main-block__statistics_block {
@@ -205,8 +203,7 @@
 
 .main-block__statistics_5-blocks {
     align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
+    justify-content: center; 
     width: 90%;
     flex-direction: row;
 }
@@ -215,11 +212,6 @@
 .main-block__recent-posts__slider { 
     margin-bottom: 40px;
 }
-
-
-.main-block__labels {  
-    height: auto;  
- }
 
  .width--label--768 {
     width: 20%;
@@ -251,6 +243,12 @@
     width: 100%;
     height: auto;
     flex-wrap: wrap;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+
+.main-block__contacts__header { 
+    margin-top: 55px;
 }
 
 

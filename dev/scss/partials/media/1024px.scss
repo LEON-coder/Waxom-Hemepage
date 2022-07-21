@@ -1,4 +1,74 @@
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1440px) {
+
+
+    .left_slide {
+        position: absolute;
+        left: 90px;
+    }
+
+    .right_slide {
+        position: absolute;
+        right: 90px;
+    }
+
+
+    .main-block__describes {
+        height: auto;
+    }
+
+    .describes__4-block {
+        display: flex;
+        padding-top: 80px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+    }
+
+    .main-block__realization {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .pic--width_320px {
+        width: 50%;
+    }
+
+    
+    .left {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 80%;
+    }
+
+    .center {
+        position: absolute;
+        bottom: 0;
+        z-index: 3;
+    }
+    .main-block__realization_describe_h2 {
+        font-size: 16px;
+        font-family: Montserrat;
+        color: #8c8c8c;
+        line-height: 1.75;
+        text-align: center;
+        width: 757px;
+        height: auto;
+        z-index: 114;
+        display: flex;
+        margin-top: 33px;
+        margin-bottom: 40px;
+    }
+
+    .main-block__realization_3-pictures {
+        display: flex;
+        width: 80%;
+        position: relative;
+        height: 240px;
+        justify-content: center;
+        margin-top: 0px;
+        flex-direction: row;
+    }
 
     .main-block__statistics_5-blocks {
         display: flex;
@@ -34,12 +104,16 @@
 
     .main-block__post {
         display: flex;
-        width: 100%;
+        width: auto;
         height: 395px;
         flex-direction: column;
-        margin-right: 0;
         position: relative;
         align-items: baseline;
+        margin-right: 30px;
+    }
+
+    .main-block__post:nth-child(2) {
+margin-right: 0;
     }
 
     .main-block__post_link {
@@ -50,6 +124,10 @@
     .main-block__post_describe {
         width: 297px;
         margin-left: 20px;
+    }
+
+    .main-block__post_name {       
+        margin-left: 20px;        
     }
 
      .main-block__mobile_devices--describe-text {
@@ -84,11 +162,9 @@
         justify-content: center;
         align-items: center;
         margin-right: 50px;
+        margin-bottom: 0;
     }
 
-    .main-block__realization {
-        margin-top: 0;
-    }
 
     .main-block__projects_block-pic {
         display: flex;
@@ -97,43 +173,50 @@
         flex-wrap: wrap;
     }
 
-    .projects_block__picture {       
-        width: auto;       
+    .projects_block__picture {
+        width: auto;
+        margin-right: 20px;
+    }
+
+
+    .projects_block__picture:nth-child(2) {
+        width: auto;
+        margin-right: 0;
+    }
+
+    .projects_block__picture:nth-child(3) {
+        width: auto;
+        margin-right: 0;
+        margin-top: 40px;
+    }
+
+    .projects_block-pic__row {
+        display: flex;
+        margin-top: 40px;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 0;
     }
 
     .margin-top {
         margin-top: 350px;
     }
+
     .margin-block--top-1024 {
-        margin-top: 0;
+        margin-top: 40px;
     }
 
-    .main-block__realization_3-pictures {
-        display: flex;
-        width: 100%;
-        position: relative;
-        height: 320px;
-        justify-content: center;
-        margin-top: 100px;
-    }
-
+ 
     .describes__4-block {
         display: flex;
         padding-top: 80px;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .projects_block-pic__row {
-        display: flex;
-        margin-top: 40px;
-        height: 339px;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: row;
-        margin-bottom: 330px;
-    }
+  
 
- 
     .main-block__projects {
         display: flex;
         flex-direction: column;
@@ -156,22 +239,23 @@
         width: auto;
     }
 
-    .width--label{
-        width: 15%;
+    .width--label {
+        width: 20%;
     }
 
     .main-block__labels__block {
-        flex-direction: row;
-        margin-bottom: 30px;
+        flex-direction: row;     
         justify-content: space-around;
     }
 
-    .main-block__recent-posts_3-blocks {
-        display: flex;
-        margin-top: 43px;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .main-block__recent-posts_3-blocks {
+    display: flex;
+    margin-top: 43px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+}
 
 
     .main-block__link {     

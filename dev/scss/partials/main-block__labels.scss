@@ -5,17 +5,13 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content: center;
 }
 
 .main-block__labels__block {
-    width: 100%;
+    width: 1110px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-
-.main-block__picture {
-    display: flex;
-    margin-right: 90px;
-}

@@ -85,6 +85,15 @@
     margin-right: 30px;
 }
 
+.projects_block__picture:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 337px;
+    position: relative;
+    margin-right: 0;
+}
+
 
 .projects_block__picture:hover .projects_block__picture_header-describer {
     background-color: #362f2d;

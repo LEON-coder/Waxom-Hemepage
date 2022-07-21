@@ -1,7 +1,7 @@
-@media screen and (min-width:320px) {
+@media screen and (min-width:320px) and (max-width:767px){
 
-    .header {        
-        height: auto;      
+    .header {
+        height: 860px;
     }
 
     .header__header-text {
@@ -9,8 +9,9 @@
         font-size: 24px;
     }
 
+
     .header__header-portfolio {
-        font-size: 42px;
+        font-size: 34px;
         font-family: Raleway;
         color: #fff;
         font-weight: 700;
@@ -41,8 +42,8 @@
     }
 
 
-    .btn {    
-        margin-top: 100px;      
+    .btn {
+        margin-top: 30px;
     }
 
     .left_slide {     
@@ -53,9 +54,9 @@
         display: none;
     }
 
-    .header__radiobtn {       
-        margin-top: 120px;
-        margin-bottom: 50px;
+    .header__radiobtn {
+        margin-top: 310px;
+        margin-bottom: 0px;
     }
 
     .main-block__realization_describe_h3 {      
@@ -128,6 +129,14 @@
     .projects__picture {       
         width: 100%;         
                    }
+
+    .projects__back-corner {
+        display: flex;
+        position: absolute;
+        top: 220px;
+        z-index: 11;
+        left: 20px;
+    }
 
     .main-block__statistics_5-blocks {      
         flex-wrap: wrap;
@@ -202,8 +211,10 @@
         margin-bottom: 20px;
     }
     .main-block__projects_block-pic {
-        width: 100%;
+        width: 90%;
         margin-top: 50px;
+        justify-content: center;
+        align-items: center;
     }
 
     .projects_block-pic__row {
@@ -261,8 +272,6 @@
         margin-bottom: 70px;
     }
 
-
-
     .brown-line__block_quotation {
         font-size: 28px;
         font-family: Raleway;
@@ -272,13 +281,16 @@
         z-index: 120;
         margin-bottom: 20px;
     }
-    .brown-line__block_h1 {      
-        width: 80%;
-        display: flex;
-        justify-self: center;
-        align-self: center;
-        margin-bottom: 20px;
-    }
+
+    
+.brown-line__block_h1 {
+    width: 70%;
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
 
 .main-block__statistics_block:first-child {
         margin-top: 50px;
@@ -343,9 +355,9 @@
         align-self: baseline;       
     }
 
-    .main-block__post_describe {        
-        margin-left: 14px;      
-        width: 297px;
+    .main-block__post_describe {
+        margin-left: 18px;
+        width: auto;
     }
 
     .main-block__link {      
@@ -376,7 +388,7 @@
 
     .main-block__post {
         display: flex;
-        width: 100%;
+        width: 90%;
         height: 395px;
         flex-direction: column;
         margin-right: 0;
@@ -396,6 +408,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 40px;
     }
 
     .margin-right--none{
@@ -421,6 +434,12 @@
 .main-block__contacts {
     margin-top: 0px;
     height: auto;
+}
+
+.main-block__contacts_logo {
+    display: flex;
+    align-self: baseline;
+    margin-top: 45px;
 }
 
 .main-block__contacts_block {
@@ -467,6 +486,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 .footer__left-block {
@@ -483,6 +503,7 @@
     display: flex;
     flex-direction: column;
     width: 90%;
+    margin-top: 10px;
 }
 
 .footer__item {    

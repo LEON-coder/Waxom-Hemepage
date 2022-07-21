@@ -8,8 +8,20 @@
     background-repeat: no-repeat;
     background-size: cover;      
     align-items: center;
+    position: relative;
     
-}     
+}   
+
+.left_slide {
+    position: absolute;
+    left: 150px;
+}
+
+.right_slide {
+    position: absolute;
+    right: 150px;
+}
+
 .navigation{
     display:flex;
     width:100%;
@@ -102,6 +114,15 @@ margin-right: 30px;
         align-items: center;
         position: relative;
     }
+
+    .header__block-slide {
+        display: flex;
+        margin-top: -210px;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+
     .btn {
         font-size: 14px;
         font-family: Raleway;
@@ -126,7 +147,7 @@ margin-right: 30px;
         display: flex;
         justify-content: center;
         justify-self: center;
-        margin-top: 220px;
+        margin-top: 400px;
     }
 
     .radio {
@@ -146,17 +167,6 @@ margin-right: 30px;
 display: flex;
     }
 
-
-    .left_slide {
-        position: absolute;
-        left: 150px;
-    }
-
-
-    .right_slide {
-        position: absolute;
-        right: 150px;
-    }
 
     #slides {
         position: relative;      
