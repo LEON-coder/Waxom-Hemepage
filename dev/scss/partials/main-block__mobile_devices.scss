@@ -13,35 +13,39 @@
 
 .main-block__mobile_devices_block-text {
     display: flex;
-    margin-top: 70px;
+    margin-top: 195px;
     flex-direction: column;
 }
 
-.main-block__mobile_devices--header{ 
-        font-size: 30px;
-        font-family: "Raleway";
-        color: rgb(85, 85, 85);
-        font-weight: bold;
-        line-height: 1.2;
-        text-align: left;       
-        z-index: 257;    
-      }
+.main-block__mobile_devices--header {
+    font-size: 30px;
+    font-family: Raleway;
+    color: #555;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    z-index: 257;
+    margin-bottom: 40px;
+}
 
 .main-block__mobile_devices--describe-text {
-        font-size: 16px;
-        font-family: "Montserrat";
-        color: rgb(140, 140, 140);
-        line-height: 1.75;
-        text-align: left;      
-        width: 657px;
-        height: 99px;
-        z-index: 258;   
-      }
-      .main-block__mobile_devices_list {
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-    }
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    line-height: 1.75;
+    text-align: left;
+    width: 657px;
+    z-index: 258;
+}
+
+
+.main-block__mobile_devices_list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 48px;
+}
 
 
 

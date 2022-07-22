@@ -31,12 +31,18 @@
     @font-face {
         font-family: "Raleway";
         font-style: normal;
-        src: local('../build/fonts/raleway/Raleway-SemiBold.woff');
+        src: local('../../build/fonts/raleway/Raleway-Medium.woff2');
+    }
+
+    @font-face {
+        font-family: "Raleway";
+        font-style: Bold;
+        src: local('../../build/fonts/raleway/Raleway-ExtraBold.woff2');
     }
 
     @font-face {
         font-family: "Montserrat";
         font-style: light;
-        src: local('../build/fonts/Montserrat/Montserrat-Light.ttf');
+        src: local('../../build/fonts/Montserrat/Montserrat-Light.ttf');
     }
 

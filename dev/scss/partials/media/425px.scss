@@ -1,0 +1,31 @@
+@media screen and (min-width:425px) and (max-width: 767px) {
+    
+    .nav__list {    
+        margin-top: 40px;
+    }
+   
+    .header {
+        height: 860px;
+    }
+
+    .main-block__recent-posts_describe {
+        font-size: 16px;
+        font-family: Montserrat;
+        color: #8c8c8c;
+        line-height: 1.75;
+        text-align: center;
+        width: 80%;
+        height: 43px;
+        z-index: 306;
+    }
+
+    .main-block__recent-posts_3-blocks {
+        display: flex;
+        margin-top: 43px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+  
+
+}
