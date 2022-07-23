@@ -1,31 +1,63 @@
-@media screen and (min-width:425px) and (max-width: 767px) {
-    
-    .nav__list {    
-        margin-top: 40px;
-    }
-   
-    .header {
-        height: 860px;
-    }
-
-    .main-block__recent-posts_describe {
-        font-size: 16px;
-        font-family: Montserrat;
-        color: #8c8c8c;
-        line-height: 1.75;
-        text-align: center;
-        width: 80%;
-        height: 43px;
-        z-index: 306;
-    }
-
-    .main-block__recent-posts_3-blocks {
-        display: flex;
-        margin-top: 43px;
-        flex-wrap: wrap;
+@media screen and (min-width:425px) and (max-width:768px) {
+    .main-block__projects_block-pic {
+        width: 70%;
+        margin-top: 50px;
+        justify-content: center;
         align-items: center;
+    }
+
+    .projects_block__picture:nth-child(3) {
+        width: 100%;
+    }
+
+    .main-block__mobile_devices_list {
+        margin-top: 130px;
+        margin-left: 0;
+    }
+
+    .main-block__statistics_5-blocks {      
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .main-block__statistics_block {      
+        margin-right: 20px;
+    }
+
+    .footer__wrapper {
+        width: 90%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+
+    .footer__left-block {
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
         justify-content: center;
     }
-  
+
+    .footer__right-block {
+        margin-left: 0;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer__item {
+        font-size: 13px;
+        font-family: Montserrat;
+        margin-top: 0;
+    }
+     
 
 }
