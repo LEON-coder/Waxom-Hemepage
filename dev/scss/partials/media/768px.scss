@@ -2,6 +2,40 @@
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
 
+    .header__header-text {
+        font-size: 32px;
+        font-family: Raleway;
+        color: #fff;
+        line-height: 1.2;
+        text-align: center;
+        z-index: 414;
+        margin-top: 210px;
+    }
+
+    .header__header-portfolio {
+        font-size: 45px;
+        font-family: Raleway;
+        color: #fff;
+        font-weight: 700;
+        line-height: 1.2;
+        text-align: center;
+        z-index: 415;
+        margin-top: 20px;
+    }
+
+    .header__header-describe {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        font-family: Montserrat;
+        color: #fff;
+        line-height: 1.5;
+        text-align: center;
+        width: 60%;
+        z-index: 416;
+        margin-top: 20px;
+    }
+
     .right_slide {
         position: absolute;
         right: 50px;
@@ -60,9 +94,18 @@
         margin-bottom: 50px;
     }
 
-    .main-block__realization {
-        width: 100%;
-        height: auto;      
+    .main-block__realization_describe_h2 {
+        font-size: 16px;
+        font-family: Montserrat;
+        color: #8c8c8c;
+        line-height: 1.75;
+        text-align: center;
+        width: 80%;
+        height: auto;
+        z-index: 114;
+        display: flex;
+        margin-top: 33px;
+        margin-bottom: 40px;
     }
 
     .main-block__recent-posts {
@@ -140,6 +183,8 @@
         margin-top: 43px;
         flex-wrap: wrap;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .main-block__projects {
@@ -176,6 +221,16 @@
         margin-top: 30px;
     }
 
+    .main-block__post {
+        display: flex;
+        width: 370px;
+        height: 395px;
+        flex-direction: column;
+        margin-right: 0;
+        position: relative;
+        margin-bottom: 40px;
+    }
+
     .main-block__mobile_devices_block-text {
         margin-left: 0;
     }
@@ -185,9 +240,10 @@
         margin-bottom: 70px;
     }
 
-.main-block__recent-posts_describe {   
-    width: 70%;
-   }
+    .main-block__recent-posts_describe {
+        width: 70%;
+        height: auto;
+    }
 
    .main-block__statistics {
     margin-top: 0;   
@@ -228,6 +284,7 @@
 .main-block__labels__block {
     flex-direction: row;
     margin-bottom: 30px;
+    width: 90%;
 }
 
 
@@ -274,12 +331,14 @@
     margin-left: 0;
     width: auto;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .footer__right-block {
     margin-left: 10px;
     width: auto;
     flex-direction: row;
+    margin-top: 0;
 }
 
 .footer__wrapper {
@@ -292,6 +351,7 @@
     font-size: 13px;
     font-family: Montserrat;
     margin-top: 0;
+    width: auto;
 }
 
 .footer__item:first-child {

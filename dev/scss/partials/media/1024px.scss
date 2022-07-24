@@ -29,8 +29,22 @@
         height: auto;
     }
 
+    .main-block__realization_3-pictures {
+        display: flex;
+        width: 80%;
+        position: relative;
+        height: 240px;
+        justify-content: center;
+        margin-top: 200px;
+        flex-direction: row;
+    }
+
     .pic--width_320px {
         width: 50%;
+    }
+
+    .pic--width {
+        width: 80%;
     }
 
     
@@ -46,6 +60,12 @@
         bottom: 0;
         z-index: 3;
     }
+
+    .right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
     .main-block__realization_describe_h2 {
         font-size: 16px;
         font-family: Montserrat;
@@ -58,16 +78,6 @@
         display: flex;
         margin-top: 33px;
         margin-bottom: 40px;
-    }
-
-    .main-block__realization_3-pictures {
-        display: flex;
-        width: 80%;
-        position: relative;
-        height: 240px;
-        justify-content: center;
-        margin-top: 0px;
-        flex-direction: row;
     }
 
     .main-block__statistics_5-blocks {
@@ -97,10 +107,7 @@
         margin-bottom: 60px;
         width: 90%;
     }
-    .main-block__picture {
-        display: flex;
-        margin-right: 0;
-    }
+
 
     .main-block__post {
         display: flex;
@@ -176,6 +183,7 @@ margin-right: 0;
     .projects_block__picture {
         width: auto;
         margin-right: 20px;
+        margin-top: 0;
     }
 
 
