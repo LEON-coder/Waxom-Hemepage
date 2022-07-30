@@ -1,1 +1,1 @@
-"use strict";var burger=document.getElementById("burger-menu");function burgerMenu(){document.getElementById("class__list-nav").classList.toggle("open"),burger.classList.toggle("burger-change"),burger.removeAttribute("#burger-menu")}burger.addEventListener("click",burgerMenu);
+"use strict";var burger=document.querySelector(".burger-menu"),stripe=(burger.addEventListener("click",burgerMenu),document.querySelector(".stripe-menu"));function burgerMenu(){document.getElementById("class__list-nav").classList.toggle("open"),burger.classList.toggle("active")}

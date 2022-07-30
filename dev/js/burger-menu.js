@@ -1,11 +1,16 @@
 
-let burger = document.getElementById('burger-menu');
+let burger = document.querySelector('.burger-menu');
 burger.addEventListener('click', burgerMenu);
+let stripe = document.querySelector('.stripe-menu')
 
 
 function burgerMenu() {
 var navigation = document.getElementById('class__list-nav');
 navigation.classList.toggle('open');
-burger.classList.toggle("burger-change"); 
-burger.removeAttribute("#burger-menu"); 
+burger.classList.toggle("active");
 } 
+
+
+
+
+
