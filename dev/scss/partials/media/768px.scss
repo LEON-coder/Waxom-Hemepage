@@ -2,6 +2,23 @@
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
 
+
+
+    .prev {
+        left: 50px;
+    }
+
+    .slider .next {
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        font-weight: 700;
+        font-size: 18px;
+        right: 50px;
+    }
+
     .header__header-text {
         font-size: 32px;
         font-family: Raleway;

@@ -1,13 +1,14 @@
 @media screen and (min-width:1200px) and (max-width: 1600px){
+    
     .navigation {
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
         width: 1170px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .link__nav_logo {        
+    .link__nav_logo {
         margin-bottom: 0;
+        margin-right: 100px;
     }
 
     .nav__list {
@@ -17,6 +18,13 @@
     .main-block__describes {
         height: 372px;
     }
+
+
+    .picture_slide {
+    position: absolute;
+    height: 1024px;
+    width: 100%;
+}
 
    .mobile {
         display: flex;

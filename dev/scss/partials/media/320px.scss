@@ -31,7 +31,6 @@
     .navigation {
         flex-wrap: wrap;
         width: 100%;
-        justify-content: flex-start;
         padding-top: 20px;
         display: flex;
         position: relative;
@@ -83,8 +82,8 @@
         display: flex;
     }
 
-    .card_and_search{
-        display: flex;
+    .card_and_search {
+        display: none;
     }
 
     .cart {
@@ -117,6 +116,28 @@
         display: none;
     }
 
+    .prev {
+        cursor: pointer;
+        position: absolute;
+        left: 14px;
+        top: 12%;
+        width: auto;
+    }
+
+    .slider .next {
+        cursor: pointer;
+        position: absolute;
+        top: 12%;
+        padding: 16px;
+        right: 10px;
+    }
+
+    .slider-dots {
+        position: absolute;
+        bottom: 70px;
+        left: 40%;
+    }
+
     .burger-menu {
         display: flex;
         width: 30px;
@@ -129,8 +150,7 @@
     }
 
   
-
-      .burger-common-change{
+     .burger-common-change{
         display: flex;
         width: 0;
         background: #fff;
