@@ -1,1 +1,1 @@
-"use strict";var burger=document.querySelector(".burger-menu"),stripe=(burger.addEventListener("click",burgerMenu),document.querySelector(".stripe-menu"));function burgerMenu(){document.getElementById("class__list-nav").classList.toggle("open"),burger.classList.toggle("active")}
+"use strict";var burger=document.querySelector(".burger-menu"),navigation=(burger.addEventListener("click",burgerMenu),document.querySelector(".nav__list"));function burgerMenu(){navigation.classList.toggle("open"),burger.classList.toggle("active")}

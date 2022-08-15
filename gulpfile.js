@@ -53,7 +53,7 @@ function script() {
     })) 
     .pipe(uglify())
     .pipe(browserSync.stream())
-    .pipe(gulp.dest('./js'));
+    .pipe(gulp.dest('/build/js'));
 }
 
 
@@ -101,7 +101,7 @@ function watcher() {
     gulp.watch('dev/scss/**/*scss', CSScompiling);
     gulp.watch('build/*.html').on('change', browserSync.reload);
     gulp.watch('dev/images/**/*.{jpg,png,gif,svg}', imageCompressing);
-    gulp.watch('dev/', script);
+    gulp.watch('dev/js', script);
   }
 
 
