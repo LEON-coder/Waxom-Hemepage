@@ -201,7 +201,13 @@
         transform: rotate(265deg);
     }
 
+    .prev {       
+        display: none;
+    }
 
+    .slider .next {       
+        display: none;
+    }
 
 
     @keyframes show{

@@ -1,19 +1,17 @@
 
-include ../helpers/mixins
-
-block variables
-
 doctype html
 html(lang="ru-RU")
 head 
  meta(charset="utf-8")
- title Waxom Hemepage)
+ title Waxom Hemepage
  meta(http-eqiv='X-UA-Compatible' , content="IE = edge")
  meta(name="viewport" content="width=device-width, initiale-scale=1")
  meta(name="keywords" content="")
  link(rel="stylesheet" type="text/css" href="styles.css")
+ link(rel="stylesheet" type="text/css" href="build/slider/slider.css")
+
  body 
-  .wrapper   
+  .wrapper     
     include ../modules/header.pug   
     include ../modules/main-block__describes.pug
     include ../modules/main-block__realization.pug
@@ -26,8 +24,8 @@ head
     include ../modules/main-block__contacts.pug
     include ../modules/footer.pug 
 
- script(src = "../../js/burger-menu.js") 
- script(src = "../../../build/slider/slider.js") 
+ script(src = "build/burger/burger-menu.js") 
+ script(src = "build/slider/slider.js") 
 
 
 

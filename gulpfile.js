@@ -53,7 +53,7 @@ function script() {
     })) 
     .pipe(uglify())
     .pipe(browserSync.stream())
-    .pipe(gulp.dest('/build/js'));
+    .pipe(gulp.dest('./build/js'));
 }
 
 

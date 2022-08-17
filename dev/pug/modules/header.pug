@@ -1,6 +1,7 @@
 .slider
   .item
-    img.picture_slide(src='../img/common/header/photo.jpg' alt='Mountains')
+    img.picture_slide(src='img/common/header/photo.jpg' alt='Mountains')
+    .burger-menu
     .navigation
       a.link__nav_logo 
        img.logo(src="img/common/header/logos.svg", alt="")
@@ -23,7 +24,8 @@
       p.header__header-describe Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
       a.btn Get Started
   .item
-    img.picture_slide(src='../img/slider/pic_2.jpg' alt='Второй слайд')
+    img.picture_slide(src='img/slider/pic_2.jpg' alt='Второй слайд')
+    .burger-menu
     .navigation
       a.link__nav_logo 
        img.logo(src="img/common/header/logos.svg", alt="")
@@ -47,7 +49,8 @@
       a.btn Get Started  
       
   .item
-    img.picture_slide(src='../img/slider/pic_3.jpg' alt='Третий слайд')
+    img.picture_slide(src='img/slider/pic_3.jpg' alt='Третий слайд')
+    .burger-menu
     .navigation
       a.link__nav_logo 
        img.logo(src="img/common/header/logos.svg", alt="")
@@ -70,11 +73,11 @@
       p.header__header-describe Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
       a.btn Get Started  
   a.prev(onclick='minusSlide()')
-    img(src="../img/slider/left.png" , alt="")
-    img.prev_hover(src="../img/slider/left_hover.png", alt="")
+    img(src="img/slider/left.png" , alt="")
+    img.prev_hover(src="img/slider/left_hover.png", alt="")
   a.next(onclick='plusSlide()')
-    img(src="../img/slider/right.png" , alt="")
-    img.next_hover(src="../img/slider/right_hover.png" , alt="")
+    img(src="img/slider/right.png" , alt="")
+    img.next_hover(src="img/slider/right_hover.png" , alt="")
  
   .slider-dots
     span.slider-dots_item(onclick='currentSlide(1)')

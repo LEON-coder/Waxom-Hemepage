@@ -1,6 +1,6 @@
    
+   
    @import url(../scss/partials/header.scss);
-   @import url(../scss/partials/slider.scss);
    @import url(../scss/partials/main-block__describes.scss);
    @import url(../scss/partials/main-block__realization.scss);
    @import url(../scss/partials/main-block__projects.scss);
@@ -19,32 +19,33 @@
    @import url(../scss/partials/media/2560px.scss);
 
 
-   *,.wrapper{
-        margin:0;
-        padding:0
+ 
+   @font-face {
+        font-family: "Raleway";
+        font-style: normal;
+        src: local('build/fonts/raleway/Raleway-Medium.woff2');
     }
 
+    @font-face {
+        font-family: "Raleway";
+        font-style: light;
+        src: local('build/fonts/raleway/Raleway-Light.woff2');
+    }
+
+    @font-face {
+        font-family: "Montserrat";
+        font-style: light;
+        src: local('..build/fonts/Montserrat/Montserrat-Light.ttf');
+    }
 
     body {
         width: 100%;
         font-family: 'Raleway, Montserrat, sans-serif';
       }
 
-    @font-face {
-        font-family: "Raleway";
-        font-style: normal;
-        src: local('../../build/fonts/raleway/Raleway-Medium.woff2');
+  *,.wrapper{
+        margin:0;
+        padding:0
     }
-
-    @font-face {
-        font-family: "Raleway";
-        font-style: Bold;
-        src: local('../../build/fonts/raleway/Raleway-ExtraBold.woff2');
-    }
-
-    @font-face {
-        font-family: "Montserrat";
-        font-style: light;
-        src: local('../../build/fonts/Montserrat/Montserrat-Light.ttf');
-    }
+ 
 
