@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width:768px) and (max-width: 1024px) {
+@media screen and (min-width:768px) and (max-width: 1023px) {
 
    .prev {       
         left: 50px;      
@@ -155,13 +155,18 @@
         margin-top: 40px;
     }
 
+    .pic--width {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
     .margin-top {
         margin-top: 0;
     }
     
     .main-block__realization_3-pictures {
-        width: 100%;
+        width: 80%;
         height: auto;
         margin-top: 320px;
         display: flex;
@@ -185,12 +190,7 @@
 
     .main-block__picture {
         display: flex;
-        margin-right: 0;
-        width: auto;
-    }
-
-    .main-block__picture img {      
-      width: 60%;
+        width: 70%;
     }
 
     .main-block__recent-posts_3-blocks {
