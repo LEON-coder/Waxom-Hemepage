@@ -1,4 +1,4 @@
-@media screen and (min-width:320px) and (max-width:425px) {
+@media screen and (min-width:320px) and (max-width:375px) {
 
     .header {
         height: 860px;
@@ -448,6 +448,46 @@
         height: auto;
         width: 80%;
         margin-top: 250px;
+        display: none;
+    }
+
+    .slider_main-block__realization {
+        max-width: 450px;
+        margin: 0 auto;
+        display: flex;
+        width: 100%;
+    }
+    .slider-container {
+        margin-left: auto;
+        width: 100%;
+        margin-right: auto;
+        position: relative;
+        overflow: hidden;
+        margin-top: 50px;
+        margin-bottom: 0;
+        height: 200px;
+    }
+
+    .slider-item__pic {
+        width: auto;
+        height: 200px;
+    }
+
+    .arrow-left {
+        position: absolute;
+        top: 35%;
+        left: 10px;
+        transform: translateY(-50%);
+        z-index: 6;
+        display: flex;
+    }
+
+    .arrow-right {
+        position: absolute;
+        top: 35%;
+        right: 50px;
+        transform: translateY(-50%);
+        z-index: 6;
     }
 
 

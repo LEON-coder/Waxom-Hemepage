@@ -9,12 +9,13 @@ head
  meta(name="keywords" content="")
  link(rel="stylesheet" type="text/css" href="styles.css")
  link(rel="stylesheet" type="text/css" href="build/slider/slider.css")
+ 
 
- body 
+body 
   .wrapper     
     include ../modules/header.pug   
     include ../modules/main-block__describes.pug
-    include ../modules/main-block__realization.pug
+    include ../modules/main-block__realization.pug  
     include ../modules/main-block__projects.pug
     include ../modules/main-block__presentation.pug
     include ../modules/main-block__mobile_devices.pug
@@ -23,9 +24,12 @@ head
     include ../modules/main-block__labels.pug
     include ../modules/main-block__contacts.pug
     include ../modules/footer.pug 
+  
 
- script(src = "build/burger/burger-menu.js") 
- script(src = "build/slider/slider.js") 
-
+  script(src = "build/burger/burger-menu.js") 
+  script(src = "build/slider/slider.js") 
+  script(src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js")
+  script(src = "build/js/slider_main-block.js")
+  
 
 
