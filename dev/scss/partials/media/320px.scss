@@ -55,9 +55,10 @@
     .open {
         display: flex;
         transition: show 1s;
-        position: absolute;
+        position: fixed;
         top: 0;
-        left: 0px;
+        left: 0;
+        -webkit-animation: 1s show;
         animation: 1s show;
     }
 
@@ -224,7 +225,7 @@
     }
 
     .active {
-        position: absolute;
+        position: fixed;
         transition: all 1s;
         transform: rotate(45deg);
         top: 35px;
