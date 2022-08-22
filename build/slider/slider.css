@@ -1,25 +1,4 @@
-.slider-dots {
-    display: flex;
-    justify-content: center;
-    margin-top: 400px;
-    align-items: center;
-    height: 30px;
-}
 
-
-.slider-dots_item {
-    cursor: pointer;
-    border-radius: 50%;
-    background-color: #898a8d;
-    background-image: -moz-linear-gradient(-41deg, rgb(14,14,18) 0%, rgb(45,45,53) 100%);
-    background-image: -webkit-linear-gradient(-41deg, rgb(14,14,18) 0%, rgb(45,45,53) 100%);
-    background-image: -ms-linear-gradient(-41deg, rgb(14,14,18) 0%, rgb(45,45,53) 100%);
-    opacity: 0.502;
-    width: 11px;
-    height: 11px;
-    z-index: 425;
-    margin-right: 10px;
-}
 
 .slider-dots_item:last-child {
     margin-right: 0;

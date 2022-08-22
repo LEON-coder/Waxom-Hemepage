@@ -51,7 +51,7 @@
         padding-top: 0;
         transition: all 1s;
     }
-
+    
     .open {
         display: flex;
         transition: show 1s;
@@ -60,6 +60,7 @@
         left: 0;
         -webkit-animation: 1s show;
         animation: 1s show;
+        height: 100%;
     }
 
     .nav__list_item {
@@ -125,10 +126,9 @@
         width: auto;
     }
 
-    .slider-dots {
-        position: absolute;
+    .slider-dots {    
         bottom: 70px;
-        left: 40%;
+        left: 40%!important;
     }
 
     .burger-menu {
@@ -225,12 +225,13 @@
     }
 
     .active {
-        position: fixed;
         transition: all 1s;
         transform: rotate(45deg);
-        top: 35px;
-        right: 30px;
-    }
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+}
 
     .active::before {
         position: absolute;
