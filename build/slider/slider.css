@@ -143,6 +143,70 @@
     left: 48%;
 }
 
+@media screen and (min-width:320px) and (max-width:375px) {
+   
+   
+    .slider {
+        max-width: 100%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }   
+    
+    
+    .slider-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        z-index: 6;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: initial;
+    }
+
+    .picture_slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+.picture_slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    margin-bottom: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    z-index: 6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: initial;
+}
+}
+
+
 /* Анимация слайдов */
 .slider .item {
     -webkit-animation-name: fade;

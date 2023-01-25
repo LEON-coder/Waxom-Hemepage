@@ -5,7 +5,7 @@
     }
 
     .header__header-text {
-        margin-top: 160px;
+        margin-top: 70px;
         font-size: 24px;
         width: 80%;
     }
@@ -55,26 +55,25 @@
     
     .open {
         display: flex;
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         -webkit-animation: 1s show;
         animation: 1s show;
         height: 100vh;
-        justify-content: center;
     }
 
     .nav__list_item {
         font-size: 32px;
-        font-family: Montserrat;
+        font-family: 'Montserrat';
         color: #fff;
         line-height: 1.2;
         text-align: left;
         z-index: 439;
         margin-right: 0;
         transition: all 0.7s;
-        margin-bottom: 18px;
-        margin-top: 18px;
+        padding-bottom: 25px;
+        padding-top: 30px;
     }
 
   .nav__list_item:nth-child(8) {
@@ -127,11 +126,12 @@
         width: auto;
     }
 
-    .slider-dots {    
-        bottom: 70px;
-        left: 40%!important;
+    .arrow {
+        position: absolute;
+        z-index: 2;
+        display: none;
     }
-
+    
     .burger-menu {
         display: flex;
         width: 30px;
@@ -755,12 +755,8 @@
         background-size: cover;
     }
 
-    .main-block__picture:first-child {
-        margin-top: 40px;
-    }
-
     .main-block__picture:last-child {
-        margin-bottom: 50px;
+        margin-bottom: 50px;        
     }
 
     .main-block__post_block-picture {
@@ -769,13 +765,17 @@
         width: 100%;
     }
 
+    .main-block__label {
+        
+    }
+
     .main-block__labels__block {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         margin-bottom: 40px;
+        flex-wrap: wrap;
     }
 
     .margin-right--none{
@@ -820,13 +820,11 @@
 }
 
 .width--label {
-    width: 50%; 
+    width: 25%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
-.main-block__picture:last-child {
-    margin-bottom: 0;
-    margin-top: 0;
-}
 .margin-label--bottom {
     margin-bottom: 40px;
 }

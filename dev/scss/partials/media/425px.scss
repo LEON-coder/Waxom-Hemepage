@@ -1,4 +1,4 @@
-@media screen and (min-width: 426px) and (max-width: 767px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
     .header {
         height: 860px;
     }
@@ -29,43 +29,43 @@
     .navigation {
         flex-wrap: wrap;
         width: 100%;
-        justify-content: center;
         padding-top: 20px;
         display: flex;
+        position: relative;
+    }
+
+  
+    .link__nav_logo {
+        margin-right: 100px;
     }
 
     .nav__list {
         width: 100%;
-        margin-top: 30px;
-        flex-wrap: wrap;
-        justify-content: center;
-        display: flex;
-    }
-
-    .link__nav_logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 0;
+        margin-top: 0;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: grey;
+        padding-top: 0;
+        transition: all 1s;
     }
 
     .nav__list_item {
-        font-size: 22px;
+        padding-bottom: 28px;
+        padding-top: 30px;
+        font-size: 32px;
         font-family: Montserrat;
         color: #fff;
         line-height: 1.2;
         text-align: left;
         z-index: 439;
-        margin-right: 40px;
+        margin-right: 0;
         transition: all 0.7s;
-        margin-bottom: 0;
-        margin-top: 0;
     }
 
-    .nav__list_item:first-child {
-        margin-left: 30px;
-    }
-
+    
     .nav__list_item:nth-child(8) {
         margin-right: 0;
     }
@@ -75,7 +75,7 @@
     }
 
     .card_and_search {
-        display: flex;
+        display: none;
         margin-top: 30px;
         justify-content: center;
     }
@@ -110,7 +110,14 @@
     }
 
     .burger-menu {
-        display: none;
+        display: flex;
+        width: 30px;
+        background: #fff;
+        height: 2px;
+        position: fixed;
+        top: 50px;
+        right: 30px;
+        z-index: 500;
     }
 
     .burger-menu::after {
@@ -170,12 +177,14 @@
         transition: all 1s;
     }
 
-    .active {
-        position: absolute;
+    .active--burger {
         transition: all 1s;
         transform: rotate(45deg);
-        top: 35px;
-        right: 30px;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+        position: fixed;
     }
 
     .active::before {
@@ -186,19 +195,28 @@
         transform: rotate(-95deg);
     }
 
-    .active::after {
-        display: none;
+    .active--burger::after {
         position: absolute;
         top: 0;
         right: 0;
         transition: all 1s;
-        transform: rotate(265deg);
+        transform: rotate(-95deg);
+    }
+
+    .open {
+        display: flex;
+        transition: show 1s;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        animation: 1s show;
     }
 
     .prev {
         display: none;
     }
 
+ 
     .slider .next {
         display: none;
     }
@@ -212,6 +230,15 @@
         display: flex;
         width: auto;
     }
+
+    .arrow-right {
+    position: absolute;
+    top: 35%;
+    right: 50px;
+    transform: translateY(-50%);
+    z-index: 6;
+    display: none;
+}
 
     @keyframes show {
         0% {
@@ -247,9 +274,16 @@
         margin-bottom: 0px;
     }
 
+    .main-block__realization_describe_h2 {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
     .main-block__realization_describe_h3 {
         width: 85%;
         font-size: 24px;
+        margin-top: 30px;
+        height: auto;
     }
 
     .main-block__picture {
@@ -341,10 +375,7 @@
         justify-content: center;
     }
 
-    .main-block__realization_describe_h2 {
-        width: 80%;
-    }
-
+   
     .main-block__realization {
         width: 100%;
         height: auto;
@@ -352,12 +383,12 @@
         flex-direction: column;
         align-items: center;
         background-color: #fbfaf8;
+        position: relative;
     }
 
     .main-block__realization_3-pictures {
-        height: auto;
         width: 80%;
-        margin-top: 200px;
+        height: 200px;
     }
     .main-block__mobile_devices_block-text {
         width: 100%;
@@ -631,8 +662,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
         margin-bottom: 40px;
+        flex-wrap: wrap;
     }
 
     .margin-right--none {
@@ -676,7 +707,9 @@
     }
 
     .width--label {
-        width: 50%;
+        width: 25%;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .main-block__picture:last-child {
