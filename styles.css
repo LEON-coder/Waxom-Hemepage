@@ -873,6 +873,10 @@
   position: relative;
 }
 
+.main-block__post:last-child {
+  margin-right: 0;
+}
+
 .main-block__post_block-picture {
   display: flex;
   height: 220px;
@@ -2117,7 +2121,7 @@ span {
     top: 0;
     left: 0;
     -webkit-animation: 1s show;
-            animation: 1s show;
+    animation: 1s show;
   }
   .nav__list_item {
     font-size: 32px;
@@ -3038,7 +3042,7 @@ span {
     top: 0;
     left: 0;
     -webkit-animation: 1s show;
-            animation: 1s show;
+    animation: 1s show;
   }
   .prev {
     display: none;
@@ -4453,7 +4457,8 @@ body {
   font-family: "Raleway, Montserrat, sans-serif";
 }
 
-*, .wrapper {
+*,
+.wrapper {
   margin: 0;
   padding: 0;
 }
