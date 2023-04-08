@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: light;
+  src: local("../../../build/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -403,7 +409,7 @@
   line-height: 1.2;
   text-align: left;
   z-index: 120;
-  color: "#93816f";
+  color: #93816f;
 }
 
 .main-block__projects {
@@ -633,11 +639,6 @@
   margin-bottom: 80px;
 }
 
-@font-face {
-  font-family: Montserrat;
-  font-style: light;
-  src: local("../../../build/fonts/Montserrat/Montserrat-SemiBold.ttf");
-}
 .main-block__presentation {
   justify-content: center;
   display: flex;
@@ -3021,20 +3022,7 @@ span {
     -o-transition: all 1s;
     position: fixed;
   }
-  .active::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transition: all 1s;
-    transform: rotate(-95deg);
-  }
-  .active--burger::after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    transition: all 1s;
-    transform: rotate(-95deg);
-  }
+
   .open {
     display: flex;
     transition: show 1s;
@@ -3043,6 +3031,7 @@ span {
     left: 0;
     -webkit-animation: 1s show;
     animation: 1s show;
+    position: fixed;
   }
   .prev {
     display: none;
@@ -3337,12 +3326,7 @@ span {
   .margin-block--320px {
     margin-top: 790px;
   }
-  .main-block__recent-posts_3-blocks {
-    margin-top: 70px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
   .main-block__recent-posts_describe {
     height: auto;
     width: 90%;
@@ -3360,6 +3344,7 @@ span {
     justify-content: center;
     align-items: center;
     height: auto;
+    overflow: hidden;
   }
   .main-block__post {
     display: flex;
@@ -3433,7 +3418,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     flex-wrap: wrap;
   }
   .margin-right--none {
@@ -3468,8 +3453,14 @@ span {
   .main-block__contacts_widget {
     margin-bottom: 40px;
   }
+
+  .main-block__label {
+    width: 28%;
+    display: flex;
+    margin-right: 80px;
+  }
   .width--label {
-    width: 25%;
+    width: 100%;
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -3487,7 +3478,7 @@ span {
     flex-direction: column;
   }
   .footer__wrapper {
-    width: 90%;
+    width: 70%;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -3694,6 +3685,8 @@ span {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    overflow: hidden;
   }
   .main-block__projects {
     display: flex;
@@ -3933,7 +3926,7 @@ span {
   }
   .main-block__post:last-child {
     margin-right: 0;
-    margin-top: 40px;
+    margin-top: 0;
   }
   .main-block__mobile_devices_block-text {
     display: flex;
@@ -3953,7 +3946,7 @@ span {
     margin-right: 30px;
   }
   .main-block__post:nth-child(2) {
-    margin-right: 0;
+    margin-right: 100px;
   }
   .main-block__post_link {
     margin-left: 20px;
@@ -3966,16 +3959,35 @@ span {
   .main-block__post_name {
     margin-left: 20px;
   }
+  .main-block__mobile_devices_block-text {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+    width: 50%;
+  }
+
   .main-block__mobile_devices--describe-text {
     font-size: 16px;
     font-family: Montserrat;
     color: #8c8c8c;
     line-height: 1.75;
     text-align: left;
-    width: 80%;
-    height: auto;
+    width: 90%;
     z-index: 258;
-    margin-top: 20px;
+  }
+
+  .main-block__mobile_devices_li {
+    font-size: 16px;
+    font-family: Montserrat;
+    color: #8c8c8c;
+    line-height: 2;
+    text-align: left;
+    width: 100%;
+    z-index: 261;
+    margin-left: 48px;
+    position: relative;
   }
   .brown-line__common-block {
     display: flex;
@@ -4047,11 +4059,11 @@ span {
   .main-block__recent-posts {
     display: flex;
     width: 100%;
-    height: auto;
     background: #fff;
     flex-direction: column;
     align-items: center;
   }
+
   .projects__picture {
     width: auto;
   }
@@ -4438,18 +4450,18 @@ span {
   }
 }
 @font-face {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   src: local("build/fonts/raleway/Raleway-Medium.woff2");
 }
 @font-face {
-  font-family: Raleway;
-  font-style: light;
+  font-family: "Raleway";
+  font-style: "light";
   src: local("build/fonts/raleway/Raleway-Light.woff2");
 }
 @font-face {
   font-family: Montserrat;
-  font-style: light;
+  font-style: "light";
   src: local("..build/fonts/Montserrat/Montserrat-Light.ttf");
 }
 body {
