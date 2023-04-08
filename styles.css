@@ -1899,6 +1899,17 @@ span {
     justify-content: center;
     align-items: center;
   }
+
+  .main-block__recent-posts {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    overflow: hidden;
+  }
+
   .main-block__recent-posts_describe {
     height: auto;
     width: 90%;
@@ -1909,35 +1920,29 @@ span {
     margin-top: 40px;
     margin-bottom: 40px;
   }
-  .main-block__recent-posts {
-    margin-top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
+
+  #slider_bl .info.bottom-right {
+    bottom: 30px;
+    right: -230px;
   }
   .main-block__post {
     display: flex;
-    width: 90%;
+    width: 370px;
     height: 395px;
     flex-direction: column;
-    margin-right: 0;
+    margin-right: 30px;
     position: relative;
-    align-items: center;
-    margin-bottom: 30px;
+    align-items: baseline;
   }
   .main-block__post_name {
-    margin-left: 20px;
-    align-self: baseline;
+    margin-left: 0;
   }
   .main-block__post_link {
-    margin-left: 20px;
-    align-self: baseline;
+    margin-left: 55px;
   }
   .main-block__post_describe {
-    margin-left: 18px;
-    width: auto;
+    margin-left: 0px;
+    width: 70%;
   }
   .main-block__link {
     margin-top: 770px;
@@ -1973,6 +1978,17 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .main-block__label {
+    width: 25%;
+    margin-right: 40px;
+  }
+
+  .main-block__label:nth-child(2),
+  .main-block__label:nth-child(4) {
+    margin-right: 0;
+  }
+
   .main-block__picture:last-child {
     margin-bottom: 50px;
   }
@@ -1982,11 +1998,11 @@ span {
     width: 100%;
   }
   .main-block__labels__block {
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     flex-wrap: wrap;
   }
   .margin-right--none {
@@ -2022,9 +2038,7 @@ span {
     margin-bottom: 40px;
   }
   .width--label {
-    width: 25%;
-    margin-left: 40px;
-    margin-right: 40px;
+    width: 100%;
   }
   .margin-label--bottom {
     margin-bottom: 40px;
@@ -2670,6 +2684,12 @@ span {
     height: 99px;
     z-index: 258;
   }
+
+  .main-block__label {
+    width: 28%;
+    display: flex;
+    margin-right: 80px;
+  }
   .margin-block--320px {
     margin-top: 790px;
   }
@@ -2696,7 +2716,9 @@ span {
     justify-content: center;
     align-items: center;
     height: auto;
+    overflow: hidden;
   }
+
   .main-block__post {
     display: flex;
     width: 90%;
@@ -2805,7 +2827,7 @@ span {
     margin-bottom: 40px;
   }
   .width--label {
-    width: 25%;
+    width: 100%;
     margin-left: 40px;
     margin-right: 40px;
   }
