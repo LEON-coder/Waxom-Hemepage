@@ -1,7 +1,12 @@
 @font-face {
   font-family: "Montserrat";
   font-style: light;
-  src: local("../../../build/fonts/Montserrat/Montserrat-SemiBold.ttf");
+  src: local("build/fonts/Montserrat/Montserrat-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: light;
+  src: local("build/fonts/raleway/Raleway-Light.woff2");
 }
 
 .header {
@@ -2129,15 +2134,15 @@ span {
     padding-top: 0;
     transition: all 1s;
   }
-  .open {
+ .open {
     display: flex;
-    transition: show 1s;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     -webkit-animation: 1s show;
     animation: 1s show;
-  }
+    height: 100vh;
+}
   .nav__list_item {
     font-size: 32px;
     font-family: Montserrat;
@@ -3045,16 +3050,15 @@ span {
     position: fixed;
   }
 
-  .open {
+.open {
     display: flex;
-    transition: show 1s;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     -webkit-animation: 1s show;
     animation: 1s show;
-    position: fixed;
-  }
+    height: 100vh;
+}
   .prev {
     display: none;
   }
